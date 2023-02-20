@@ -8,6 +8,6 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<a href="hello-world">Hello Spring MVC</a>
+<a href="/hello-world">Hello Spring MVC</a>
 </body>
 </html>
