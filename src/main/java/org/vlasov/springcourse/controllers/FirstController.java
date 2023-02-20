@@ -1,10 +1,11 @@
-package com.vlasoff.springcourse.controller;
+package org.vlasov.springcourse.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
+@RequestMapping("/first")
 public class FirstController {
 
     @GetMapping("/hello")
@@ -13,7 +14,7 @@ public class FirstController {
     }
 
     @GetMapping("/goodbye")
-    public String gooByePage() {
+    public String goodByePage() {
         return "first/goodbye";
     }
 }
